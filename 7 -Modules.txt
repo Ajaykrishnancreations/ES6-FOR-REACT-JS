@@ -1,5 +1,7 @@
 Modules
 
+This work need a 3 file . for output to show (aaa.html📰 )//and export a data file (bbb.js📰)// and import a data from export file (ccc.js📰)
+
 ____________________________________________________________________________________________________________________________
 |    this is html file                    |   import .js                            |         export.js                     |
 |                                         |                                         |                                       |
