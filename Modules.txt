@@ -1,0 +1,23 @@
+Modules
+
+____________________________________________________________________________________________________________________________
+|    this is html file                    |   import .js                            |         export.js                     |
+|                                         |                                         |                                       |
+|                                         |                                         |                                       |
+|<!DOCTYPE html>                          |     import {a,b} from "./export.js";    |   export let a=[1,2,3,4,5];           |
+|<html lang="en">                         |     import Add from"./export.js";       |   export let b="hello world ";        |
+|<head>                                   |     console.log(a);                     |   export default function Add(c,d){   |
+|                                         |     console.log(b);                     |       return c+d;                     |
+|<script type="module" src="import.js">   |     //document.write(b)                 |       }                               |
+|</script>                                |                                         |                                       |
+|                                         |     console.log(Add(44,44));            |                                       |
+|</head>                                  |                                         |                                       |
+|<body>                                   |                                         |                                       |
+|                                         |                                         |                                       |
+|</body>                                  |                                         |                                       |
+|</html>                                  |                                         |                                       |
+|                                         |                                         |                                       |
+|                                         |                                         |                                       |
+|                                         |                                         |                                       |
+|                                         |                                         |                                       |
+-----------------------------------------------------------------------------------------------------------------------------
