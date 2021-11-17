@@ -1,0 +1,34 @@
+Useing Array in . map() method
+================================
+
+This will work in Ract js only.
+                  =======
+
+To work on App.js File // in ract js project
+
+
+const MyArray=['Apple','Banan','Orange'];
+
+const myList=MyArray.map ((item))=><p>{item}</p>)
+
+ReactDOM.render(myList,document.getElementById("root"));
+
+
+out put //
+========
+____________________________________________________________
+|local host:3000                        |  _  | [ ]  |  X   |         
+|_______________________________________|_____|_[ ]__|______|
+|                                                           |
+|  Apple                                                    |
+|                                                           |
+|  Banan                                                    |
+|                                                           |
+|  Orange                                                   |
+|                                                           |
+|                                                           |
+|                                                           |
+|                                                           |
+|                                                           |
+|                                                           |
+|___________________________________________________________|

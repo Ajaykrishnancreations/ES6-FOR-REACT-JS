@@ -1,0 +1,31 @@
+variables
+==========
+3 types 
+
+[ var ] 
+[ let ]
+[ const ]
+
+========================================================
+
+var x=5.6;
+---
+var is a function scope,not a block scope //
+
+========================================================
+
+let x=5;
+---------
+
+let is a block scope.
+
+========================================================
+
+const x=3;
+-----------
+
+const is also a block scope.
+
+const is fixed variables once we can set(or)wirte 
+we can read only,we can can not change and modified
+=========================================================

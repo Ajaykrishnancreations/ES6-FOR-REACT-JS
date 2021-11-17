@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+
+    // Spread operator using(...) for copy
+    
+    let n1=[1,2,3,4];
+    let n2=[5,6,7,8];
+
+    let n1n2=[...n1,...n2];
+    document.write(n1n2)
+
+//==================================================
+
+// rest operator
+
+    document.write("<br><br><br> Rest opertor<br>")
+    let num1=[1,2,3,4,5,6];
+    let [one,two,...rest]=num1;
+
+    document.write(one+" ");
+    document.write(two+" ");
+    document.write(rest+" <br><br><br>");
+
+//=====================================================
+
+let first={
+    name:"Ajay krishnan S",
+    age:21,
+}
+let second={
+    dob:3/6/2000,
+    address:"xxx,yyy,zzzz",
+}
+
+let firstsecond={...first,...second};
+
+document.write(""+firstsecond);
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>

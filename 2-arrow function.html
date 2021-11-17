@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script>
+    myfun=(v1)=>{
+        return(
+        "result:"+v1+" "+v2
+        );
+    }
+    test=()=>{
+        document.getElementById("ans").innerHTML=myfun+("hello ajay","how are you");
+    }
+</script>
+</head>
+<body>
+    <input type="button" value="submit" onclick="test()">
+    <div id="ans"></div>
+</body>
+</html>
